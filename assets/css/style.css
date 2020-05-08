@@ -68,11 +68,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "inherit", sans-serif;
 }
 
+
 #header h1 a, #header h1 a:hover {
-  color: #fff;
+  color: #555;
   line-height: 1;
   display: inline-block;
 }
@@ -84,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 span {
-  color: #fff;
+  color: #666;
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
 }
