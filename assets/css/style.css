@@ -788,6 +788,7 @@ div.equation {
 
 .education .education-item ul li {
   padding-bottom: 10px;
+  text-align: justify;
 }
 
 .education .education-item:last-child {
