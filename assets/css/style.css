@@ -812,12 +812,76 @@ div.equation {
 }
 
 img.sidebarpost_thumb{float:left;width:40px; height:40px; margin:0 20px 0 0;}
+img.projects_sidebarpost_thumb{float:left;width:60px; height:60px; margin:0 20px 0 0;}
 img.sidebarpost_thumb_rect{float:left;width:40px; height:30px; margin:0 20px 0 0;}
 
 /*--------------------------------------------------------------
 # projects
 --------------------------------------------------------------*/
-.projects .icon-box {
+.projects .projects-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #a22222;
+}
+
+.projects .projects-item {
+  padding: 0 0 0px 0px;
+  margin-top: -2px;
+  border-left: 0px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.projects .projects-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+.projects .projects-item h4 span {
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+  /*background: rgba(46, 49, 49, 0.09);*/
+}
+
+.projects .projects-item h5 {
+  font-size: 16px;
+  /*background: rgba(46, 49, 49, 0.08);*/
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+.projects .projects-item ul {
+  padding-left: 55px;
+}
+
+.projects .projects-item ul li {
+  padding-bottom: 10px;
+  text-align: justify
+}
+
+.projects .projects-item:last-child {
+  padding-bottom: 0;
+}
+
+.projects .projects-item::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  left: -9px;
+  top: 0;
+}
+
+/*.projects .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
   padding: 80px 20px;
@@ -891,7 +955,7 @@ img.sidebarpost_thumb_rect{float:left;width:40px; height:30px; margin:0 20px 0 0
 
 .projects .icon-box:hover h4 a, .projects .icon-box:hover p {
   color: #fff;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Portfolio
